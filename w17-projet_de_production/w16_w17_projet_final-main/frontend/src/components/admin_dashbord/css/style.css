@@ -1,0 +1,103 @@
+/* Styles pour le formulaire de création d'un nouvel utilisateur */
+.container-parent {
+    background-image: url('../../../images/bckg_Login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.form-container {
+    background: linear-gradient(to bottom, #fff, #ccc);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+.form-button {
+    margin-top: 20px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+.recent-bookings {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le titre "Réservations récentes" */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles pour la table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Styles pour les en-têtes de colonne */
+.table th {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Styles pour les cellules de la table */
+.table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Styles pour la colonne "Status" */
+.status {
+    text-align: center;
+}
+
+/* Styles pour la colonne "Action" */
+.action {
+    text-align: center;
+}
+
+/* Styles pour les icônes d'état */
+.action .MuiSvgIcon-root {
+    font-size: 20px;
+    color: #007bff;
+}
+
+/* Styles pour l'icône "En attente" */
+.status .MuiSvgIcon-root.warning {
+    color: #ffc107;
+}
+
+/* Styles pour l'icône "Annulée" */
+.status .MuiSvgIcon-root.error {
+    color: #dc3545;
+}
+
+body {
+    background-color: #f5f5f5;
+
+}
